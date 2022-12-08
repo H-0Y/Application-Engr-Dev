@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de199db6-3031-4ac9-ad0f-e0747e68bf3f" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ghoe5bARKs3cHqE67MZaFuzx8P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspaces/AdvisorManagementSystem&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="de199db6-3031-4ac9-ad0f-e0747e68bf3f" name="变更" comment="" />
+      <created>1666850270732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666850270732</updated>
+      <workItem from="1666850271855" duration="4564000" />
+      <workItem from="1666924058287" duration="3892000" />
+      <workItem from="1666934025867" duration="630000" />
+      <workItem from="1667014725694" duration="2310000" />
+      <workItem from="1667087829601" duration="2385000" />
+      <workItem from="1667198699686" duration="6000" />
+      <workItem from="1667414850296" duration="2576000" />
+      <workItem from="1667766163655" duration="2137000" />
+      <workItem from="1667982284134" duration="706000" />
+      <workItem from="1668322482056" duration="72000" />
+      <workItem from="1668631236197" duration="335000" />
+      <workItem from="1668803657795" duration="3409000" />
+      <workItem from="1669261092537" duration="2868000" />
+      <workItem from="1669704204042" duration="495000" />
+      <workItem from="1669794295980" duration="230000" />
+      <workItem from="1670095945784" duration="12509000" />
+      <workItem from="1670111663363" duration="2907000" />
+      <workItem from="1670114883122" duration="6996000" />
+      <workItem from="1670121912251" duration="62000" />
+      <workItem from="1670274378674" duration="664000" />
+      <workItem from="1670442283270" duration="1246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
