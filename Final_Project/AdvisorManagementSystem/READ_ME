@@ -21,4 +21,6 @@ when using this application, it will automatically log the operation you did, in
 About the query and delete operation:
 If there is no such object that matches your input, it will tell you.
 
+About the test file in src
+You don't need to check it. I use it to test some functions with JUnit. The codes you care the most is in src/main/java/advisor/manage, I think.
 
