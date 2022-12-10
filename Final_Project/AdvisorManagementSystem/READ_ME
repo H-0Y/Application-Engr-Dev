@@ -17,6 +17,7 @@ I have already configured the connection with cloud database, which is due by 12
 
 About the log system:
 when using this application, it will automatically log the operation you did, in the console.log file, which is in the root directory of the project. 
+If you run the jar file via cmd, the console.log will be saved in the user directory in your computer, for me the directory is C:\Users\Lingyun.  
 
 About the query and delete operation:
 If there is no such object that matches your input, it will tell you.
