@@ -1,1 +1,24 @@
+This is an Advisor Management System
+
+You can use by running Main in IDEA, or run AdvisorManagementSystem-1.0-SNAPSHOT-jar-with-dependencies.jar which is in src/target file in CMD with command: java -jar AdvisorManagementSystem-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+Someting to notice:
+
+About log in:
+You need to login first. The existing user accounts are: 
+username: root
+password: 123
+and 
+username: test
+password: 123456
+
+About the database:
+I have already configured the connection with cloud database, which is due by 12/19/2022, in the mybatis-config.xml file. If it expires, I'll have to pay for another month, so I hope you could check my project by 12/19. Thanks!!!
+
+About the log system:
+when using this application, it will automatically log the operation you did, in the console.log file, which is in the root directory of the project. 
+
+About the query and delete operation:
+If there is no such object that matches your input, it will tell you.
+
 

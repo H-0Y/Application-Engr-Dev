@@ -10,8 +10,10 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.util.function.Consumer;
 
+// create a SqlUtil Class to encapsulate the operations with SqlSession
 public class SqlUtil {
     private SqlUtil(){}
+    // create a SqlSessionFactory
     private static SqlSessionFactory factory;
     static {
         try {
@@ -21,6 +23,7 @@ public class SqlUtil {
         }
     }
 
+    // encapsulate the operation where sqlSession get an AdviseMapper
     public static void doSqlWork(Consumer<AdviseMapper> consumer) {
         try(SqlSession sqlSession = factory.openSession(true)){
             AdviseMapper adviseMapper = sqlSession.getMapper(AdviseMapper.class);

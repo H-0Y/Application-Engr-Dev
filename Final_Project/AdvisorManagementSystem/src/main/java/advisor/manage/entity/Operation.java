@@ -2,11 +2,11 @@ package advisor.manage.entity;
 
 import advisor.manage.sql.SqlUtil;
 import lombok.extern.java.Log;
-
-
 import java.util.Scanner;
 @Log
 public class Operation {
+
+    // login operation
     public void login(Scanner scanner) throws NullPointerException{
         SqlUtil.doSqlWork(mapper -> {
             java.lang.System.out.println("Please enter your username: ");
@@ -17,10 +17,12 @@ public class Operation {
             User user = mapper.loginCheck(userName, password);
 
             java.lang.System.out.println("User: " + user.getUserName()+" logins successfully!");
+            // record in log file
             log.info("User: " + user.getUserName() + " logins successfully.");
         });
     }
 
+    // operation: show all students' info
     public void showStudent(){
         SqlUtil.doSqlWork(mapper -> {
             mapper.getStudentList().forEach(student -> {
@@ -29,6 +31,7 @@ public class Operation {
         });
     }
 
+    // operation: show all advisors' info
     public void showAdvisor(){
         SqlUtil.doSqlWork(mapper -> {
             mapper.getAdvisorList().forEach(advisor -> {
@@ -36,6 +39,8 @@ public class Operation {
             });
         });
     }
+
+    // operation: show all advised's info
     public void showAdvised(){
         SqlUtil.doSqlWork(mapper -> {
             mapper.getAdvisedList().forEach(advised -> {
@@ -43,6 +48,8 @@ public class Operation {
             });
         });
     }
+
+    // operation: add an advised info
     public void addAdvised(Scanner scanner){
 
         java.lang.System.out.println("Please enter aid: ");
@@ -53,7 +60,6 @@ public class Operation {
         int sid = Integer.parseInt(temp);
 
         SqlUtil.doSqlWork(mapper -> {
-
             // check whether this advisor and student existed
             try {
                 Advisor advisor = mapper.getAdvisorByAid(bid);
@@ -71,6 +77,8 @@ public class Operation {
             }
         });
     }
+
+    // operation: add an advisor info
     public void addAdvisor(Scanner scanner){
         java.lang.System.out.println("Please enter aid: ");
         String id = scanner.nextLine();
@@ -96,6 +104,8 @@ public class Operation {
         }
 
     }
+
+    // operation: add a student info
     public void addStudent(Scanner scanner){
         java.lang.System.out.println("Please enter sid: ");
         String id = scanner.nextLine();
@@ -123,7 +133,7 @@ public class Operation {
 
     }
 
-
+    // operation: delete a student info
     public void deleteStudent(Scanner scanner){
         java.lang.System.out.print("Please enter the id of the student: ");
         Integer sid = scanner.nextInt();
@@ -137,7 +147,7 @@ public class Operation {
             else java.lang.System.out.println("Failure, please try again");
         });
     }
-
+    // operation: delete an advised info
     public void deleteAdvised(Scanner scanner){
         java.lang.System.out.println("Please enter id: ");
         Integer id = scanner.nextInt();
@@ -155,6 +165,8 @@ public class Operation {
         }
 
     }
+
+    // operation: delete an advisor info
     public void deleteAdvisor(Scanner scanner) {
         java.lang.System.out.print("Please enter the aid of the advisor: ");
         Integer aid = scanner.nextInt();
@@ -168,7 +180,7 @@ public class Operation {
         });
     }
 
-
+    // operation: query a student info by sid
     public void getStudentBySid(Scanner scanner){
         SqlUtil.doSqlWork(mapper -> {
             java.lang.System.out.println("Please enter the sid of the student: ");
@@ -184,7 +196,7 @@ public class Operation {
 
         });
     }
-
+    // operation: query an advisor info by aid
     public void getAdvisorByAid(Scanner scanner){
         SqlUtil.doSqlWork(mapper -> {
             java.lang.System.out.println("Please enter the aid of the advisor: ");
@@ -198,6 +210,8 @@ public class Operation {
 
         });
     }
+
+    // operation: query an advised relationship by id
     public void getAdvisedById(Scanner scanner){
         SqlUtil.doSqlWork(mapper -> {
             java.lang.System.out.println("Please enter id: ");
@@ -213,6 +227,7 @@ public class Operation {
         });
     }
 
+    // operation: add a user info
     public void addUser(Scanner scanner){
         java.lang.System.out.println("Please enter the new username: ");
         String userName = scanner.nextLine();
@@ -237,7 +252,7 @@ public class Operation {
         }
 
     }
-
+    // operation: delete a student info by sid
     public void deleteUser(Scanner scanner) {
         java.lang.System.out.print("Please enter the username of the advisor: ");
         String username = scanner.nextLine();

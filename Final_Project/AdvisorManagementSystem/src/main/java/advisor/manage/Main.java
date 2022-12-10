@@ -13,14 +13,18 @@ import java.util.logging.LogManager;
 
 public class Main {
     public static void main(String[] args) {
+        // create an instance of Operation Class
         Operation operation = new Operation();
+        // capture exception
         try(Scanner scanner = new Scanner(System.in)) {
+            // used for log system
             LogManager manager = LogManager.getLogManager();
             manager.readConfiguration(Resources.getResourceAsStream("logging.properties"));
 
-            // User login: there are two users now.
+            // User login: there are two users in the cloud database now.
             // one is {username: Test, password: 123456}
             // another is {username: root, password: 123}
+
             boolean flag = true;
             while (flag) {
                 try {
@@ -28,11 +32,12 @@ public class Main {
                     flag = false;
                 } catch (Exception e) {
                     System.out.println("Failure, your username or password is incorrect.");
-
                 }
             }
-            while(true) {
 
+            // Main interface:
+            // Level 1: First choose an operation
+            while(true) {
                 System.out.println("========================");
                 System.out.println("1. Add info");
                 System.out.println("2. Delete info by id");
@@ -40,7 +45,9 @@ public class Main {
                 System.out.println("4. Show info");
                 System.out.println("5. Modify user info");
                 System.out.print("Enter a operation you want (enter any other number to quit) : ");
+
                 int input;
+                // check whether the input is legal
                 try {
                     input = scanner.nextInt();
                 }catch (Exception e){
@@ -48,6 +55,7 @@ public class Main {
                     return;
                 }
                 scanner.nextLine();
+                // Level 2: Decide the object you want to manipulate
                 switch (input){
                     // ADD
                     case 1:
@@ -57,6 +65,8 @@ public class Main {
                         System.out.println("3. Add advised info");
                         System.out.println("4. Back to last level");
                         System.out.print("Enter a operation you want (enter any other number to quit) : ");
+
+                        // check whether the input is legal
                         try {
                             input = scanner.nextInt();
                         }catch (Exception e){
