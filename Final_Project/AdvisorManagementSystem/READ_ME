@@ -13,6 +13,7 @@ username: test
 password: 123456
 
 About the database:
+If you want to check the cloud database online, you could go to "https://dms.cloud.tencent.com/#/login". Choose the "TDSQL-C for MySQL" for "类型(type)" and the account number and password are "root" and "Hly2274807".
 I have already configured the connection with cloud database, which is due by 12/19/2022, in the mybatis-config.xml file. If it expires, I'll have to pay for another month, so I hope you could check my project by 12/19. Thanks!!!
 
 About the log system:
