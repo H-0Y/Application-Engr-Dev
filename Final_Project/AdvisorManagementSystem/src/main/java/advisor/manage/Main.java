@@ -22,7 +22,7 @@ public class Main {
             manager.readConfiguration(Resources.getResourceAsStream("logging.properties"));
 
             // User login: there are two users in the cloud database now.
-            // one is {username: Test, password: 123456}
+            // one is {username: test, password: 123456}
             // another is {username: root, password: 123}
 
             boolean flag = true;
@@ -188,6 +188,7 @@ public class Main {
                         System.out.println("========================");
                         System.out.println("1. Add a new user");
                         System.out.println("2. Delete a user");
+                        System.out.println("3. Back to last level");
                         try {
                             input = scanner.nextInt();
                         }catch (Exception e){
@@ -202,8 +203,10 @@ public class Main {
                             case 2:
                                 operation.deleteUser(scanner);
                                 break;
-                            default:
+                            case 3:
                                 break;
+                            default:
+                                return;
                         }
                         break;
                     default:

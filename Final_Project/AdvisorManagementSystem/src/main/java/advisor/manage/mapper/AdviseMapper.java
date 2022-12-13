@@ -18,13 +18,6 @@ public interface AdviseMapper {
     @Insert("insert into advised(sid, aid) value(#{sid}, #{aid})")
     int addAdvised(@Param("sid") int sid, @Param("aid") int bid);
 
-//    @Results({
-//            @Result(column = "id", property = "id", id = true),
-//            @Result(column = "sid", property = "student", one = @One(select = "getStudentBySid")),
-//            @Result(c
-//            olumn = "bid", property = "book", one = @One(select = "getBookByBid")),
-//    })
-
     @Select("select * from advised")
     List<Advised> getAdvisedList();
     @Select("select * from student")

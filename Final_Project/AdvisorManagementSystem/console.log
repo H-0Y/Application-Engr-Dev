@@ -2,3 +2,9 @@
 信息: User: root logins successfully.
 12月 03, 2022 6:43:31 下午 advisor.manage.entity.Operation lambda$addAdvisor$8
 信息: add a new advisor info: Advisor(aid=4, name=erg, sex=male)
+12月 13, 2022 2:38:21 下午 advisor.manage.entity.Operation lambda$login$0
+信息: User: root logins successfully.
+12月 13, 2022 2:43:26 下午 advisor.manage.entity.Operation lambda$login$0
+信息: User: Test logins successfully.
+12月 13, 2022 2:44:31 下午 advisor.manage.entity.Operation lambda$login$0
+信息: User: root logins successfully.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.test.MainTest" time="1.791" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.test.MainTest" time="1.708" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\86188\AppData\Local\Temp\surefire3024476177404303836\surefirebooter12480631377142247012.jar C:\Users\86188\AppData\Local\Temp\surefire3024476177404303836 2022-12-03T18-45-55_742-jvmRun1 surefire9887354684091519841tmp surefire_015803140020207666528tmp"/>
+    <property name="sun.java.command" value="C:\Users\86188\AppData\Local\Temp\surefire2013932581810711602\surefirebooter17485552616376474585.jar C:\Users\86188\AppData\Local\Temp\surefire2013932581810711602 2022-12-13T14-43-58_727-jvmRun1 surefire1267130987065232335tmp surefire_02247163659801275602tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Workspaces\AdvisorManagementSystem\target\test-classes;D:\Workspaces\AdvisorManagementSystem\target\classes;C:\Users\86188\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\86188\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\86188\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\86188\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\86188\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\86188\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\86188\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\86188\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\86188\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\86188\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\86188\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\86188\.m2\repository\org\mybatis\mybatis\3.5.11\mybatis-3.5.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\86188\AppData\Local\Temp\surefire3024476177404303836\surefirebooter12480631377142247012.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\86188\AppData\Local\Temp\surefire2013932581810711602\surefirebooter17485552616376474585.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="test1" classname="com.test.MainTest" time="1.476"/>
-  <testcase name="test2" classname="com.test.MainTest" time="0.153"/>
-  <testcase name="test3" classname="com.test.MainTest" time="0.152"/>
+  <testcase name="test1" classname="com.test.MainTest" time="1.386"/>
+  <testcase name="test2" classname="com.test.MainTest" time="0.156"/>
+  <testcase name="test3" classname="com.test.MainTest" time="0.156"/>
 </testsuite>
